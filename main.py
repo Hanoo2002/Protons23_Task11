@@ -5,12 +5,21 @@
 
 def addition(a,b):
   result=a+b
-  return result      
+  return result 
+def subtract(a,b)
+  result=a-b
+  return result
+def multiply(a,b):
+   result=a*b
+   return result
 def calculate(a, b, operation):
         #TODO (CONTINUE ON THE SAME PATTERN
         if operation.lower()=="add":
-          addition(a,b)
-
+           print ( addition(a,b))
+        elif operation.lower()=="subtract":
+            print(subtract(a,b))
+        elif operation.lower()=="multiply":
+           print(multiply(a,b))
 
 
 num1 =int(input("enter num 1: "))

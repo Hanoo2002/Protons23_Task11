@@ -1,6 +1,14 @@
-def division(num1 , num2):
-    result_divi = num1 // num2
-    return result_divi
-def product(num1 , num2):
-    result_pro = num1*num2
-    return result_pro
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second number: "))
+op=input("addition,multiplication,subtraction,division: ")
+def addition(num1,num2):
+    return num1+num2
+
+def subtraction(num1,num2):
+    return num1-num2
+
+if op=="addition":
+    print(addition(num1,num2))
+
+if op=="subtraction":
+    print(subtraction(num1,num2))

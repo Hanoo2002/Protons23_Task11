@@ -1,17 +1,6 @@
-#TODO Calculator FUNCTIONS
-
-
-
-
-
-
-def calculate(a, b, operation):
-        #TODO (CONTINUE ON THE SAME PATTERN
-
-
-
-
-num1 = #TODO INPUT FROM USER
-num2 = #TODO INPUT FROM USER
-op = #TODO INPUT FROM USER
-print(calculate(num1, num2, op))
+def division(num1 , num2):
+    result_divi = num1 // num2
+    return result_divi
+def product(num1 , num2):
+    result_pro = num1*num2
+    return result_pro

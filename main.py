@@ -3,15 +3,26 @@
 
 
 
-
-
+def addition(a,b):
+  result=a+b
+  return result 
+def subtract(a,b)
+  result=a-b
+  return result
+def multiply(a,b):
+   result=a*b
+   return result
 def calculate(a, b, operation):
         #TODO (CONTINUE ON THE SAME PATTERN
+        if operation.lower()=="add":
+           print ( addition(a,b))
+        elif operation.lower()=="subtract":
+            print(subtract(a,b))
+        elif operation.lower()=="multiply":
+           print(multiply(a,b))
 
 
-
-
-num1 = #TODO INPUT FROM USER
-num2 = #TODO INPUT FROM USER
-op = #TODO INPUT FROM USER
+num1 =int(input("enter num 1: "))
+num2 =int(input("enter num 2: "))
+op = input("enter the operation\n(add/sutract/multiplay/divide):")
 print(calculate(num1, num2, op))

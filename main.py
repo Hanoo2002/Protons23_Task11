@@ -1,17 +1,14 @@
-#TODO Calculator FUNCTIONS
+num1=int(input("Enter the first number: "))
+num2=int(input("Enter the second number: "))
+op=input("addition,multiplication,subtraction,division: ")
+def addition(num1,num2):
+    return num1+num2
 
+def subtraction(num1,num2):
+    return num1-num2
 
+if op=="addition":
+    print(addition(num1,num2))
 
-
-
-
-def calculate(a, b, operation):
-        #TODO (CONTINUE ON THE SAME PATTERN
-
-
-
-
-num1 = #TODO INPUT FROM USER
-num2 = #TODO INPUT FROM USER
-op = #TODO INPUT FROM USER
-print(calculate(num1, num2, op))
+if op=="subtraction":
+    print(subtraction(num1,num2))
